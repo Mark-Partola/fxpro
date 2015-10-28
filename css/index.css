@@ -1,0 +1,8 @@
+@import url(base/index.css);
+@import url(layout/index.css);
+@import url(other/index.css);
+
+@font-face {
+    font-family: Arial Narrow;
+    src: url(config/ARIALN.TTF);
+}

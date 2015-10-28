@@ -1,0 +1,60 @@
+@import url(../../config/config.less);
+
+.top_nav{
+    display: inline-block;
+    .active{
+        background-color: #f9f9f9;
+        color: #636363;
+        border: 1px solid #cacaca;
+    }
+}
+.top_nav-item{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: @fontFamily;
+    height: 53px;
+    line-height: @heightTopNav;
+    padding: 0 21px;
+    letter-spacing: 0px;
+    border: 1px solid transparent;
+    
+    &:hover{
+        background-color: #f9f9f9;
+        color: #636363;
+        border: 1px solid #cacaca;
+    }
+}
+
+.top_nav-help{
+    float: right;
+    text-align: right;
+    line-height: @heightTopNav;
+    font-family: @fontFamily;
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+    color:#c7c7c7;
+    
+    a{
+        color: #fff;
+    }
+}
+
+.page_breadcrumbs{
+    margin-top: 25px;
+    span{
+        display: inline-block;
+        margin-right: 5px;
+        padding-right: 15px;
+        a{
+            color: @grayColor;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+    .page_breadcrumbs-img{
+         background: url(crumbs.gif) no-repeat right;
+    }
